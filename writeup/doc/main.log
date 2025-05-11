@@ -1,0 +1,1844 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  3 MAY 2025 11:28
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**a:/OneDrive/thisisthesis/writeup/doc/main.tex
+(a:/OneDrive/thisisthesis/writeup/doc/main.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(A:\MikTex\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(A:\MikTex\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (thesis_style.sty
+Package: thesis_style 
+ (A:\MikTex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (A:\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (A:\MikTex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (A:\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+ (A:\MikTex\tex/latex/geometry\geometry.cfg)) (A:\MikTex\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (A:\MikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (A:\MikTex\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)) (A:\MikTex\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (A:\MikTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(A:\MikTex\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (A:\MikTex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen149
+)) (A:\MikTex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (A:\MikTex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count197
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count198
+\leftroot@=\count199
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count266
+\DOTSCASE@=\count267
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count268
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count269
+\dotsspace@=\muskip16
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks20
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks21
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (A:\MikTex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (A:\MikTex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (A:\MikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (A:\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (A:\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (A:\MikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (A:\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+) (A:\MikTex\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (A:\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen160
+\captionmargin=\dimen161
+\caption@leftmargin=\dimen162
+\caption@rightmargin=\dimen163
+\caption@width=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
+) (A:\MikTex\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen168
+\ttl@minus=\dimen169
+\ttl@toksa=\toks24
+\titlewidth=\dimen170
+\titlewidthlast=\dimen171
+\titlewidthfirst=\dimen172
+) (A:\MikTex\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen173
+\enit@toks=\toks25
+\enit@inbox=\box54
+\enit@count@id=\count277
+\enitdp@description=\count278
+) (A:\MikTex\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+) (A:\MikTex\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (A:\MikTex\tex/latex/quoting\quoting.sty
+Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
+ (A:\MikTex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+) (A:\MikTex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (A:\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (A:\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\quo@toppartop=\skip65
+) (A:\MikTex\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+\@glsmfirst=\toks26
+\@glsmrest=\toks27
+) (A:\MikTex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count280
+\float@exts=\toks28
+\float@box=\box55
+\@float@everytoks=\toks29
+\@floatcapt=\box56
+) (A:\MikTex\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip66
+\RaggedLeftLeftskip=\skip67
+\RaggedRightLeftskip=\skip68
+\CenteringRightskip=\skip69
+\RaggedLeftRightskip=\skip70
+\RaggedRightRightskip=\skip71
+\CenteringParfillskip=\skip72
+\RaggedLeftParfillskip=\skip73
+\RaggedRightParfillskip=\skip74
+\JustifyingParfillskip=\skip75
+\CenteringParindent=\skip76
+\RaggedLeftParindent=\skip77
+\RaggedRightParindent=\skip78
+\JustifyingParindent=\skip79
+) (A:\MikTex\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
+ `newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (A:\MikTex\tex/latex/xpatch\xpatch.sty (A:\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+ (A:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box57
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (A:\MikTex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2023-08-29 L3 Experimental document command parser
+)) (A:\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (A:\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (A:\MikTex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (A:\MikTex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (A:\MikTex\tex/generic/xkeyval\xkeyval.tex (A:\MikTex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count282
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (A:\MikTex\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (A:\MikTex\tex/latex/xstring\xstring.sty (A:\MikTex\tex/generic/xstring\xstring.tex
+\xs_counta=\count283
+\xs_countb=\count284
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (A:\MikTex\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (A:\MikTex\tex/latex/carlisle\scalefnt.sty)
+LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
+ (A:\MikTex\tex/generic/binhex\binhex.tex)
+\ntx@tmpcnta=\count285
+\ntx@cnt=\count286
+ (A:\MikTex\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+\tx@sixem=\dimen174
+\tx@y=\dimen175
+\tx@x=\dimen176
+\tx@tmpdima=\dimen177
+\tx@tmpdimb=\dimen178
+\tx@tmpdimc=\dimen179
+\tx@tmpdimd=\dimen180
+\tx@tmpdime=\dimen181
+\tx@tmpdimf=\dimen182
+\tx@dimA=\dimen183
+\tx@dimAA=\dimen184
+\tx@dimB=\dimen185
+\tx@dimBB=\dimen186
+\tx@dimC=\dimen187
+LaTeX Info: Redefining \oldstylenums on input line 902.
+) (A:\MikTex\tex/latex/newtx\newtxmath.sty
+Package: newtxmath 2024/07/05 v1.752
+ `newtxmath' v1.752, 2024/07/05 Math macros based originally on txfonts (msharpe) (A:\MikTex\tex/latex/oberdiek\centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count287
+ (A:\MikTex\tex/generic/binhex\binhex.tex)
+\tx@Isdigit=\count288
+\tx@IsAlNum=\count289
+\tx@tA=\toks32
+\tx@tB=\toks33
+\tx@su=\read2
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/minntx/m/n --> OT1/minntx/b/n on input line 403.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 412.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 420.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 423.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 426.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 535.
+\symlettersA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 582.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 584.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 605.
+\symAMSm=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 630.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 651.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
+\symlargesymbolsTXA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
+\tx@sbptoks=\toks34
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 905.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 910.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 911.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 913.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 915.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 919.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 920.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 991.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
+LaTeX Info: Redefining \Bbbk on input line 2847.
+LaTeX Info: Redefining \not on input line 2995.
+) (A:\MikTex\tex/latex/ulem\ulem.sty
+\UL@box=\box58
+\UL@hyphenbox=\box59
+\UL@skip=\skip80
+\UL@hook=\toks35
+\UL@height=\dimen188
+\UL@pe=\count290
+\UL@pixel=\dimen189
+\ULC@box=\box60
+Package: ulem 2019/11/18
+\ULdepth=\dimen190
+) (A:\MikTex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+ (A:\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (A:\MikTex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (A:\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (A:\MikTex\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (A:\MikTex\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (A:\MikTex\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (A:\MikTex\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (A:\MikTex\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+ (A:\MikTex\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (A:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count291
+)
+\@linkdim=\dimen191
+\Hy@linkcounter=\count292
+\Hy@pagecounter=\count293
+ (A:\MikTex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (A:\MikTex\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count294
+ (A:\MikTex\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count295
+ (A:\MikTex\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen192
+ (A:\MikTex\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (A:\MikTex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count296
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (A:\MikTex\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count297
+\c@Item=\count298
+\c@Hfootnote=\count299
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (A:\MikTex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+ (A:\MikTex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
+ (A:\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (A:\MikTex\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip81
+) (A:\MikTex\tex/latex/tabularray\tabularray.sty
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count302
+\l__tblr_c_int=\count303
+\l__tblr_r_int=\count304
+\l__tblr_d_dim=\dimen195
+\l__tblr_h_dim=\dimen196
+\l__tblr_o_dim=\dimen197
+\l__tblr_p_dim=\dimen198
+\l__tblr_q_dim=\dimen199
+\l__tblr_r_dim=\dimen256
+\l__tblr_s_dim=\dimen257
+\l__tblr_t_dim=\dimen258
+\l__tblr_v_dim=\dimen259
+\l__tblr_w_dim=\dimen260
+\l__tblr_a_box=\box61
+\l__tblr_b_box=\box62
+\l__tblr_c_box=\box63
+\l__tblr_d_box=\box64
+\g__tblr_table_count_int=\count305
+\c@rownum=\count306
+\c@colnum=\count307
+\c@rowcount=\count308
+\c@colcount=\count309
+\abovesep=\dimen261
+\belowsep=\dimen262
+\leftsep=\dimen263
+\rightsep=\dimen264
+\g_tblr_level_int=\count310
+\g__tblr_data_row_key_count_int=\count311
+\g__tblr_data_column_key_count_int=\count312
+\g__tblr_data_cell_key_count_int=\count313
+\g__tblr_array_int=\count314
+\l__tblr_key_count_int=\count315
+\l__tblr_key_quotient_int=\count316
+\l__tblr_key_quotient_two_int=\count317
+\l__tblr_key_remainder_int=\count318
+\g__tblr_data_str_value_count_int=\count319
+\rulewidth=\dimen265
+\l__tblr_strut_dp_dim=\dimen266
+\l__tblr_strut_ht_dim=\dimen267
+\g__tblr_cell_wd_dim=\dimen268
+\g__tblr_cell_ht_dim=\dimen269
+\g__tblr_cell_head_dim=\dimen270
+\g__tblr_cell_foot_dim=\dimen271
+\l__column_target_dim=\dimen272
+\l__tblr_caption_box=\box65
+\l__tblr_caption_left_box=\box66
+\l__tblr_row_head_box=\box67
+\l__tblr_row_foot_box=\box68
+\l__tblr_row_head_foot_dim=\dimen273
+\tablewidth=\dimen274
+\l__tblr_table_firsthead_box=\box69
+\l__tblr_table_middlehead_box=\box70
+\l__tblr_table_lasthead_box=\box71
+\l__tblr_table_firstfoot_box=\box72
+\l__tblr_table_middlefoot_box=\box73
+\l__tblr_table_lastfoot_box=\box74
+\l__tblr_remain_height_dim=\dimen275
+\l__tblr_long_from_int=\count320
+\l__tblr_long_to_int=\count321
+\l__tblr_curr_i_int=\count322
+\l__tblr_prev_i_int=\count323
+\l__tblr_table_page_int=\count324
+\l__tblr_table_head_box=\box75
+\l__tblr_table_foot_box=\box76
+\l__tblr_table_head_foot_dim=\dimen276
+\l__tblr_table_head_body_foot_dim=\dimen277
+\l__tblr_table_box=\box77
+\l__tblr_table_hlines_box=\box78
+\l__tblr_hline_box=\box79
+\l__tblr_row_box=\box80
+\l__tblr_col_o_wd_dim=\dimen278
+\l__tblr_col_b_wd_dim=\dimen279
+\l__tblr_hline_leftskip_dim=\dimen280
+\l__tblr_hline_rightskip_dim=\dimen281
+\l__tblr_row_ht_dim=\dimen282
+\l__tblr_row_dp_dim=\dimen283
+\l__tblr_row_abovesep_dim=\dimen284
+\l__tblr_row_belowsep_dim=\dimen285
+\l__tblr_row_vlines_box=\box81
+\l__tblr_vline_box=\box82
+\l__tblr_cell_box=\box83
+\l__row_upper_dim=\dimen286
+\l__row_lower_dim=\dimen287
+\l__row_vpace_dim=\dimen288
+\l__tblr_vline_aboveskip_dim=\dimen289
+\l__tblr_vline_belowskip_dim=\dimen290
+\l__tblr_cell_wd_dim=\dimen291
+\l__tblr_cell_ht_dim=\dimen292
+\l__tblr_diag_box=\box84
+) (A:\MikTex\tex/latex/microtype\microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks36
+\MT@tempbox=\box85
+\MT@count=\count325
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks37
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen293
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count326
+ (A:\MikTex\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip82
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (A:\MikTex\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (A:\MikTex\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen294
+\ar@mcellbox=\box86
+\extrarowheight=\dimen295
+\NC@list=\toks38
+\extratabsurround=\skip83
+\backup@length=\skip84
+\ar@cellbox=\box87
+) (A:\MikTex\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count327
+\rotFPtop=\skip85
+\rotFPbot=\skip86
+\rot@float@box=\box88
+\rot@mess@toks=\toks39
+) (A:\MikTex\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/05/29 v0.6a Insert pages of external PDF documents (AM)
+ (A:\MikTex\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count328
+\calc@Bcount=\count329
+\calc@Adimen=\dimen296
+\calc@Bdimen=\dimen297
+\calc@Askip=\skip87
+\calc@Bskip=\skip88
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count330
+\calc@Cskip=\skip89
+) (A:\MikTex\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen298
+\ESO@tempdimb=\dimen299
+)
+\AM@pagewidth=\dimen300
+\AM@pageheight=\dimen301
+\AM@fboxrule=\dimen302
+ (A:\MikTex\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/05/29 v0.6a Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count331
+\AM@pagebox=\box89
+\AM@global@opts=\toks40
+\AM@pagecnt=\count332
+\AM@toc@title=\toks41
+\AM@lof@heading=\toks42
+\c@AM@survey=\count333
+\AM@templatesizebox=\box90
+) (A:\MikTex\tex/latex/listings\listings.sty
+\lst@mode=\count334
+\lst@gtempboxa=\box91
+\lst@token=\toks43
+\lst@length=\count335
+\lst@currlwidth=\dimen303
+\lst@column=\count336
+\lst@pos=\count337
+\lst@lostspace=\dimen304
+\lst@width=\dimen305
+\lst@newlines=\count338
+\lst@lineno=\count339
+\lst@maxwidth=\dimen306
+ (A:\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count340
+\lst@skipnumbers=\count341
+\lst@framebox=\box92
+) (A:\MikTex\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (A:\MikTex\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (A:\MikTex\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (A:\MikTex\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (A:\MikTex\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box93
+)
+\tc@llx=\dimen307
+\tc@lly=\dimen308
+\tc@urx=\dimen309
+\tc@ury=\dimen310
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (A:\MikTex\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen311
+\adjbox@Height=\dimen312
+\adjbox@Depth=\dimen313
+\adjbox@Totalheight=\dimen314
+\adjbox@pwidth=\dimen315
+\adjbox@pheight=\dimen316
+\adjbox@pdepth=\dimen317
+\adjbox@ptotalheight=\dimen318
+ (A:\MikTex\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count342
+) (A:\MikTex\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box94
+\sift@deathcycles=\count343
+\@vwid@loff=\dimen319
+\@vwid@roff=\dimen320
+)) (A:\MikTex\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count344
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count345
+) (A:\MikTex\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (A:\MikTex\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count346
+\bibleftmargin=\skip90
+\bibindent=\skip91
+\bibparsep=\skip92
+\bibitemsep=\skip93
+\biblabelsep=\skip94
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 182.
+)
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 3.
+ (A:\MikTex\tex/latex/newtx\t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 3.
+ (main.aux (chapters/chp1.aux) (chapters/chp2.aux) (chapters/chp3.aux) (chapters/chp4.aux) (chapters/chp5.aux) (chapters/ap1.aux) (chapters/ap2.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 3.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 3.
+ (A:\MikTex\tex/latex/newtx\omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 3.
+ (A:\MikTex\tex/latex/newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 3.
+ (A:\MikTex\tex/latex/newtx\lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 3.
+ (A:\MikTex\tex/latex/newtx\lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.40492pt, 416.83315pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 715.87154pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.83315pt
+* \textheight=715.87154pt
+* \oddsidemargin=36.13493pt
+* \evensidemargin=36.13493pt
+* \topmargin=-39.50018pt
+* \headheight=14.5pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Command `\dddot' is already robust on input line 3.
+LaTeX Info: Command `\ddddot' is already robust on input line 3.
+(A:\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count347
+\scratchdimen=\dimen321
+\scratchbox=\box95
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen322
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks45
+) (A:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (A:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@mv@tabular=\count353
+\c@mv@boldtabular=\count354
+Package hyperref Info: Link coloring ON on input line 3.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+ (A:\MikTex\tex/latex/ninecolors\ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+)
+LaTeX Info: Redefining \microtypecontext on input line 3.
+Package microtype Info: Applying patch `item' on input line 3.
+Package microtype Info: Applying patch `toc' on input line 3.
+Package microtype Info: Applying patch `eqnum' on input line 3.
+Package microtype Info: Applying patch `footnote' on input line 3.
+Package microtype Info: Applying patch `verbatim' on input line 3.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 3.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (A:\MikTex\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) (A:\MikTex\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (A:\MikTex\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (A:\MikTex\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\c@lstlisting=\count355
+\c@maskedRefs=\count356
+ (A:\MikTex\tex/latex/apacite\english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 10.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 12.
+<images/pu.png, id=143, 2007.5pt x 2872.7325pt>
+File: images/pu.png Graphic file (type png)
+<use images/pu.png>
+Package pdftex.def Info: images/pu.png  used on input line 20.
+(pdftex.def)             Requested size: 208.41656pt x 298.20482pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 14.4pt on input line 25.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 37.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 38.
+ [1
+
+{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{A:/MikTex/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./images/pu.png>]
+<chapters/dd.pdf, id=154, 598.235pt x 845.1575pt>
+File: chapters/dd.pdf Graphic file (type pdf)
+<use chapters/dd.pdf>
+Package pdftex.def Info: chapters/dd.pdf  used on input line 46.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: chapters/dd.pdf Graphic file (type pdf)
+<use chapters/dd.pdf>
+Package pdftex.def Info: chapters/dd.pdf  used on input line 46.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+<chapters/dd.pdf, id=157, page=1, 598.235pt x 845.1575pt>
+File: chapters/dd.pdf Graphic file (type pdf)
+<use chapters/dd.pdf, page 1>
+Package pdftex.def Info: chapters/dd.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: chapters/dd.pdf Graphic file (type pdf)
+<use chapters/dd.pdf, page 1>
+Package pdftex.def Info: chapters/dd.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: chapters/dd.pdf Graphic file (type pdf)
+<use chapters/dd.pdf, page 1>
+Package pdftex.def Info: chapters/dd.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 ...=-, scale=1, noautoscale]{chapters/dd.pdf}
+                                                  
+File: chapters/dd.pdf Graphic file (type pdf)
+<use chapters/dd.pdf, page 1>
+Package pdftex.def Info: chapters/dd.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+ [1
+
+ <./chapters/dd.pdf>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 49.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 49.
+ [2
+
+] [3
+
+] [4
+
+] (main.toc
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 7.
+ (A:\MikTex\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `minntx' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+ (A:\MikTex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (A:\MikTex\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (A:\MikTex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (A:\MikTex\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 7.
+ (A:\MikTex\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 7.
+ (A:\MikTex\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 7.
+ (A:\MikTex\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 7.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 7.
+
+Overfull \hbox (3.40796pt too wide) detected at line 16
+ []\T1/ntxtlf/m/n/12 xviii
+ []
+
+[5
+
+]
+Overfull \hbox (3.40796pt too wide) detected at line 22
+ []\T1/ntxtlf/m/n/12 xxiii
+ []
+
+
+Overfull \hbox (2.73596pt too wide) detected at line 23
+ []\T1/ntxtlf/m/n/12 xxiv
+ []
+
+
+Overfull \hbox (2.73596pt too wide) detected at line 24
+ []\T1/ntxtlf/m/n/12 xxiv
+ []
+
+
+Overfull \hbox (9.40796pt too wide) detected at line 30
+ []\T1/ntxtlf/m/n/12 xxviii
+ []
+
+
+Overfull \hbox (9.40796pt too wide) detected at line 31
+ []\T1/ntxtlf/m/n/12 xxviii
+ []
+
+
+Overfull \hbox (2.73596pt too wide) detected at line 32
+ []\T1/ntxtlf/m/n/12 xxix
+ []
+
+
+Overfull \hbox (2.73596pt too wide) detected at line 33
+ []\T1/ntxtlf/m/n/12 xxix
+ []
+
+
+Overfull \hbox (2.73596pt too wide) detected at line 35
+ []\T1/ntxtlf/m/n/12 xxxi
+ []
+
+
+Overfull \hbox (9.40796pt too wide) detected at line 37
+ []\T1/ntxtlf/m/n/12 xxxiii
+ []
+
+
+Overfull \hbox (8.73596pt too wide) detected at line 41
+ []\T1/ntxtlf/m/n/12 xxxvi
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [6] (main.lot
+Overfull \hbox (0.74396pt too wide) detected at line 6
+ []\T1/ntxtlf/m/n/12 xliii
+ []
+
+)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+ [7
+
+] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [8
+
+]
+\openout2 = `chapters/chp1.aux'.
+
+ (chapters/chp1.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 6.
+[9
+
+
+{A:/MikTex/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] [10]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 55.
+ (A:\MikTex\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 55.
+ [11{A:/MikTex/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [12] [13
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.107 
+      ]) [14]
+\openout2 = `chapters/chp2.aux'.
+
+ (chapters/chp2.tex
+Chapter 2.
+[15
+
+
+
+
+] [16] [17]) [18]
+\openout2 = `chapters/chp3.aux'.
+
+ (chapters/chp3.tex
+Chapter 3.
+[19
+
+
+
+
+] [20]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                     \label{eq:pa}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                     \label{eq:pa}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                     \label{eq:pa}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin{equation}
+                     \label{eq:pa}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \begin{equation}
+                     \label{eq:del_g}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \begin{equation}
+                     \label{eq:del_g}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \begin{equation}
+                     \label{eq:del_g}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \begin{equation}
+                     \label{eq:del_g}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                     \label{eq:pa_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                     \label{eq:pa_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                     \label{eq:pa_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{equation}
+                     \label{eq:pa_s} [21]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                     \label{eq:del_g_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                     \label{eq:del_g_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                     \label{eq:del_g_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.70 \begin{equation}
+                     \label{eq:del_g_s}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \begin{equation}
+                     \label{eq:del_g_e}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \begin{equation}
+                     \label{eq:del_g_e}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \begin{equation}
+                     \label{eq:del_g_e}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \begin{equation}
+                     \label{eq:del_g_e}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                     \label{eq:del_g_es}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                     \label{eq:del_g_es}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                     \label{eq:del_g_es}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \begin{equation}
+                     \label{eq:del_g_es}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 \begin{equation}
+                     \label{eq:rs}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 \begin{equation}
+                     \label{eq:rs}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 \begin{equation}
+                     \label{eq:rs}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 \begin{equation}
+                     \label{eq:rs} [22] [23] [24
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.137 \end{equation}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.137 \end{equation}
+                    ] [25
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.157 
+      ] [26] [27] [28
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.216 
+      ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.219 \begin{equation}
+                      \label{eq:d}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.219 \begin{equation}
+                      \label{eq:d}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.219 \begin{equation}
+                      \label{eq:d}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.219 \begin{equation}
+                      \label{eq:d} [29] [30
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 \end{equation}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 \end{equation}
+                    ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 \begin{equation}
+                      \label{eq:lam3}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 \begin{equation}
+                      \label{eq:lam3}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 \begin{equation}
+                      \label{eq:lam3}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 \begin{equation}
+                      \label{eq:lam3}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.271 \begin{equation}
+                      \label{eq:lam4}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.271 \begin{equation}
+                      \label{eq:lam4}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.271 \begin{equation}
+                      \label{eq:lam4}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.271 \begin{equation}
+                      \label{eq:lam4}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.282 \begin{equation}
+                      \label{eq:total_time}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.282 \begin{equation}
+                      \label{eq:total_time}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.282 \begin{equation}
+                      \label{eq:total_time}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.282 \begin{equation}
+                      \label{eq:total_time} [31
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.293 
+      ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \begin{equation}
+                      \label{eq:signal_time}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \begin{equation}
+                      \label{eq:signal_time}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \begin{equation}
+                      \label{eq:signal_time}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \begin{equation}
+                      \label{eq:signal_time} [32]) [33]
+\openout2 = `chapters/chp4.aux'.
+
+ (chapters/chp4.tex
+Chapter 4.
+) [34
+
+
+
+
+]
+\openout2 = `chapters/chp5.aux'.
+
+ (chapters/chp5.tex
+Chapter 5.
+) [35
+
+
+
+
+]
+\openout2 = `chapters/ap1.aux'.
+
+ (chapters/ap1.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+[36
+
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.29 \end{align}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.29 \end{align}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.29 \end{align}
+                ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \begin{equation}
+                      \label{eq: 1.9}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \begin{equation}
+                      \label{eq: 1.9}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \begin{equation}
+                      \label{eq: 1.9}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \begin{equation}
+                      \label{eq: 1.9}
+
+LaTeX Warning: Reference `eq:tidal acceleration' on page xxxvii undefined on input line 35.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{equation}
+                      \label{eq: 1.10}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{equation}
+                      \label{eq: 1.10}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{equation}
+                      \label{eq: 1.10}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{equation}
+                      \label{eq: 1.10}
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.46202pt}.
+
+[37]
+
+LaTeX Warning: Reference `eq: mass_at' on page xxxviii undefined on input line 52.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \begin{equation}
+                      \label{eq: Sm}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \begin{equation}
+                      \label{eq: Sm}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \begin{equation}
+                      \label{eq: Sm}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \begin{equation}
+                      \label{eq: Sm}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      \label{eq: 2.2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      \label{eq: 2.2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      \label{eq: 2.2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      \label{eq: 2.2}
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.46202pt}.
+
+[38]
+
+LaTeX Warning: Reference `eq: qr' on page xxxix undefined on input line 72.
+
+
+LaTeX Warning: Reference `eq: r' on page xxxix undefined on input line 84.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 84.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 84.
+
+LaTeX Warning: Reference `eq: r' on page xxxix undefined on input line 84.
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.46202pt}.
+
+[39]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                      \label{eq: QF}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                      \label{eq: QF}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                      \label{eq: QF}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{equation}
+                      \label{eq: QF}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \begin{equation}
+                       \label{eq: dr}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \begin{equation}
+                       \label{eq: dr}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \begin{equation}
+                       \label{eq: dr}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \begin{equation}
+                       \label{eq: dr}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \begin{equation}
+                       \label{eq: pt}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \begin{equation}
+                       \label{eq: pt}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \begin{equation}
+                       \label{eq: pt}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \begin{equation}
+                       \label{eq: pt}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \begin{equation}
+                       \label{eq: pt2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \begin{equation}
+                       \label{eq: pt2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \begin{equation}
+                       \label{eq: pt2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \begin{equation}
+                       \label{eq: pt2}
+
+LaTeX Warning: Reference `eq: q' on page xl undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq: tau1' on page xl undefined on input line 114.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \begin{equation}
+                       \label{eq:Tau2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \begin{equation}
+                       \label{eq:Tau2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \begin{equation}
+                       \label{eq:Tau2}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.Alph0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \begin{equation}
+                       \label{eq:Tau2}
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.46202pt}.
+
+[40])
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.46202pt}.
+
+[41]
+\openout2 = `chapters/ap2.aux'.
+
+ (chapters/ap2.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 20.
+
+[42
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.96202pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.96202pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.46202pt}.
+
+[43] (main.bbl
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 23.
+ (A:\MikTex\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--53
+\T1/pcr/m/n/12 www [] .esa [] .int / Science [] []Exploration / Space [] []Science / Gaia /
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 39--53
+\T1/pcr/m/n/12 Gaia [] []discovers [] []a [] []new [] []family [] []of [] []black [] []holes$[][]\T1/ntxtlf/m/n/12 (+20) .  ([Ac-cessed
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 211--225
+[]\T1/ntxtlf/m/n/12 (+20) stevebd1.  (2017, Novem-ber).  \T1/ntxtlf/m/it/12 (+20) Time di-la-tion and red-shift around a static
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 211--225
+\T1/ntxtlf/m/it/12 (+20) black hole.  [][]$\T1/pcr/m/n/12 https :// www [] .physicsforums [] .com / insights / time []
+ []
+
+[44
+
+
+
+{A:/MikTex/fonts/enc/dvips/base/8r.enc}]) [45] (main.aux (chapters/chp1.aux) (chapters/chp2.aux) (chapters/chp3.aux) (chapters/chp4.aux) (chapters/chp5.aux) (chapters/ap1.aux) (chapters/ap2.aux))
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E8E1693AF82B356F33B1C1B86653F571;5209.
+ ) 
+Here is how much of TeX's memory you used:
+ 25437 strings out of 475248
+ 413410 string characters out of 5774224
+ 1937785 words of memory out of 5000000
+ 46147 multiletter control sequences out of 15000+600000
+ 631820 words of font info for 192 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 95i,18n,107p,1038b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<A:/MikTex/fonts/type1/public/newtx/NewTXMI.pfb><A:/MikTex/fonts/type1/public/newtx/NewTXMI7.pfb><A:/MikTex/fonts/type1/public/tex-gyre/qtmr.pfb><A:/MikTex/fonts/type1/public/newtx/txexs.pfb><A:/MikTex/fonts/type1/public/newtx/txmiaX.pfb><A:/MikTex/fonts/type1/public/newtx/txsys.pfb><A:/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><A:/MikTex/fonts/type1/public/newtx/ztmb.pfb><A:/MikTex/fonts/type1/public/newtx/ztmbi.pfb><A:/MikTex/fonts/type1/public/newtx/ztmr.pfb><A:/MikTex/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (46 pages, 844627 bytes).
+PDF statistics:
+ 720 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 34098 words of extra memory for PDF output out of 35830 (max. 10000000)
+

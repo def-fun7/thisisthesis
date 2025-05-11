@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <style>
+    p{
+      color: black;
+      font-size: 20px;
+      line-height: 2;
+      padding: 3px;
+    }
+    .styledBox{
+      background-color: #f0f0f0;
+      border: 1px solid black;
+      padding: 3px;
+      text-align: center;
+      border-radius: 10%;
+      font-size: 20px;
+    }
+  </style>
+  
+  <title>Document</title>
+</head>
+<body>
+  <div id="main">
+    <p> the height of the person 
+    <label for="height"></label>
+    <input type="number" title="height" id="height" class="styledBox" min="1" max="3" value="1" step="0.1">
+
+    <label for="units"></label>
+    <select id="units" class="styledBox" name="units" title="units">
+    
+        <option value="meters" >meters</option>
+        <option value="centimeters" >centimeters</option>
+        <option value="feet" >feet </option>
+        <option value="inches" > inches</option>
+    </select>
+
+    giving the ideal mass for the black hole 
+    <button id="bhMass" class="styledBox" type="button" onclick="unitConvert()">5.79e+7 M<sub>&#9737;</sub></button>
+
+    and the real mass for the black hole <span id="realMass" class="styledBox"></span>
+
+        <span id="diffMass"></span>. The name of the black hole is <span id="name" class="styledBox"></span>.
+
+    The black hole has a right ascension of <span id="ra" class="styledBox"></span> and declination of <span id="dec" class="styledBox"></span>. it has a redshift of <span id="redshift" class="styledBox"></span>, which gives the comoving distance of the black hole <span id="comovingDistance" class="styledBox"></span>. the black hole is from when the universe was <span id="age" class="styledBox"></span> years old.
+
+  </p>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.2.1/math.min.js"></script>
+  <script type="text/javascript" src="bh.json"></script>
+  <script>
+
+      
+    const sMu       = math.createUnit('solMass', '1.989e+30 kg');
+    const c           = math.speedOfLight;
+    const G          = math.gravitationConstant;
+    const gE         = math.gravity;
+    const del_ge     = math.unit(3.0723e-6, 'm/s^2');
+
+    var units = document.getElementById('units');
+    var magnitude = document.getElementById('height');
+    var diffMass = document.getElementById('diffMass');
+    var bhMass = document.getElementById('bhMass');
+    var realMass = document.getElementById('realMass');
+    var ra = document.getElementById('ra');
+    var dec = document.getElementById('dec');
+    var redshift = document.getElementById('redshift');
+    var comovingDistance = document.getElementById('comovingDistance');
+    var age = document.getElementById('age');
+    var bhName = document.getElementById('name');
+
+    var range = {
+      meter: {
+        min: 1,
+        max: 3
+      },
+      centimeters: {
+        min: parseFloat(math.evaluate('1 meter to centimeters').toNumber()).toFixed(2),
+        max: parseFloat(math.evaluate('3 meter to centimeters').toNumber()).toFixed(2)
+      },
+      feet: {
+        min: parseFloat(math.evaluate('1 meter to feet').toNumber()).toFixed(2),
+        max: parseFloat(math.evaluate('3 meter to feet').toNumber()).toFixed(2)
+      },
+      inches: {
+        min: parseFloat(math.evaluate('1 meter to inches').toNumber()).toFixed(2),
+        max: parseFloat(math.evaluate('3 meter to inches').toNumber()).toFixed(2)
+      
+    }
+    };
+    
+    units.addEventListener('change', () => {
+      magnitude.min = eval(range[units.value].min);
+      magnitude.max = eval(range[units.value].max);
+      magnitude.value = magnitude.min; 
+      unitConvert();
+    });
+
+    magnitude.addEventListener('change', () => {
+      unitConvert();
+    });
+    
+    function closestMass(target, dictionary) {
+
+      const values = Object.values(dictionary);
+  
+      return values.reduce((closest, current) => 
+          Math.abs(current - target) < Math.abs(closest - target) ? current : closest
+      );
+  }
+
+    function unitConvert() {
+      var h_in_meters = math.evaluate('(quantity) to meters ' , {quantity: math.unit(magnitude.value, units.value)});
+      
+      var massIdeal = math.evaluate('(c^3 / (2 * G) * sqrt(h / dg)) to solMass', { c: c, G: G, h: h_in_meters, dg: del_ge });
+
+      bhMass.innerHTML = math.format(massIdeal.toNumber(), 3)  + ' M<sub>&#9737;</sub> '   
+
+      var bhJSON = JSON.parse(data);
+      var massArray = bhJSON.Mass;
+    
+      var massUsed = closestMass(massIdeal.toNumber(), massArray);
+      realMass.innerHTML = math.format(massUsed, 3) + ' M<sub>&#9737;</sub> ';
+      var i = Object.values(massArray).indexOf(massUsed);
+
+      var diff = massIdeal.toNumber() - massUsed;
+
+      if (diff > 0) {
+        diffMass.innerHTML = 'The real mass is ' + '<span class="styledBox">' +math.format(diff, 3) + ' M<sub>&#9737;</sub> </span>' + ' larger than the ideal mass.';
+      } else {
+        diffMass.innerHTML = 'The real mass is ' + '<span class="styledBox">' +math.format(-diff, 3) + ' M<sub>&#9737;</sub>  </span>' + ' smaller than the ideal mass.';
+      }
+
+      var massRow = {};
+
+      for (var key in bhJSON) {
+        if (bhJSON.hasOwnProperty(key) && bhJSON[key].hasOwnProperty(i)) {
+          massRow[key]= bhJSON[key][i];
+        }
+      }
+      
+      bhName.innerHTML = massRow.SDSS_Name;
+      ra.innerHTML = parseFloat(massRow.RA).toFixed(6);
+      dec.innerHTML = parseFloat(massRow.DEC).toFixed(6);
+      redshift.innerHTML = massRow.z;
+      comovingDistance.innerHTML = math.format(massRow['co-d'], 3) + ' light years';
+      age.innerHTML = parseFloat(massRow['age_of_un']).toFixed(3) + ' billion years';
+    }
+  
+    document.onload = unitConvert();
+  </script>
+</body>
+</html>

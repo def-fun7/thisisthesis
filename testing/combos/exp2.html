@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growing Black Hole with Label</title>
+  <style>
+    body { margin: 0; overflow: hidden; background-color: #faf4f4; }
+    canvas {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      border: 3px dashed blue;
+    }
+
+    .typewriter h1 {
+      color: #4e4848;
+      font-family: monospace;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid rgb(92, 88, 80); /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: rgb(133, 130, 124) }
+    }
+  </style>
+</head>
+<body>
+  <h1 style="align-items: center; text-align:center; margin-top: 400px;">jkjnsa</h1>
+  
+  <div class="typewriter">
+    <h1>The black hole .</h1>
+  </div>
+  
+  <canvas></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  <script>
+    let centerX;
+    let centerY;
+    let blackHoleRadius = 10; // Initial small size
+    let maxBlackHoleRadius = 150;
+    let growthDurationFrames = 120; // 2 seconds at 60 fps
+    let currentFrame = 0;
+    let drawingEnabled = false;
+    let startTime;
+    const delayBeforeStart = 1000; // 1 second delay
+    let isGrown = false;
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight);
+      centerX = width / 2;
+      centerY = height / 2;
+      noStroke();
+      clear();
+
+      startTime = millis();
+
+      setTimeout(() => {
+        drawingEnabled = true;
+      }, delayBeforeStart);
+    }
+
+    function draw() {
+      if (drawingEnabled) {
+        clear();
+
+        let growthFactor = 0;
+        if (currentFrame < growthDurationFrames) {
+          growthFactor = map(currentFrame, 0, growthDurationFrames, 0, 1);
+          currentFrame++;
+        } else {
+          growthFactor = 1;
+          isGrown = true; // Black hole has reached full size
+        }
+
+        let currentRadius = blackHoleRadius + (maxBlackHoleRadius - blackHoleRadius) * growthFactor;
+
+        // Draw the blurry boundary
+        let boundaryRadius = currentRadius * 1.5;
+        for (let i = boundaryRadius; i > currentRadius; i -= 2) {
+          let alpha = map(i, currentRadius, boundaryRadius, 200, 50);
+          alpha = constrain(alpha, 50, 200);
+          fill(0, alpha);
+          ellipse(centerX, centerY, i * 2, i * 2);
+        }
+
+        // Draw the black hole core
+        fill(0);
+        ellipse(centerX, centerY, currentRadius * 2, currentRadius * 2);
+
+        // Draw the arrow and text once the black hole is grown
+        if (isGrown) {
+          stroke(255); // White arrow
+          strokeWeight(2);
+          fill(255); // White arrow head
+          let arrowStartX = centerX + currentRadius + 20;
+          let arrowStartY = centerY - 30;
+          let arrowEndX = arrowStartX + 40;
+          let arrowEndY = arrowStartY;
+          line(arrowStartX, arrowStartY, arrowEndX, arrowEndY);
+          triangle(arrowEndX, arrowEndY, arrowEndX + 10, arrowEndY - 5, arrowEndX + 10, arrowEndY + 5);
+          noStroke();
+          textAlign(LEFT, CENTER);
+          textSize(16);
+          fill(0); // Black text
+          text("This is a black hole", arrowEndX + 20, arrowEndY);
+        }
+
+      } else {
+        background(50);
+        fill(255);
+        textAlign(CENTER, CENTER);
+        textSize(20);
+        text(`Drawing will begin in ${Math.ceil((delayBeforeStart - (millis() - startTime)) / 1000)} seconds...`, width / 2, height / 2);
+      }
+    }
+
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight);
+      centerX = width / 2;
+      centerY = height / 2;
+      maxBlackHoleRadius = min(width, height) / 3;
+    }
+  </script>
+</body>
+</html>

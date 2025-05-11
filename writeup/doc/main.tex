@@ -1,0 +1,99 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{thesis_style}
+\begin{document}
+
+% Title page
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \large
+        \begin{doublespace}
+          \textbf{\MakeUppercase{L'appel au Vide: A thought Experiment}}
+        \end{doublespace}
+        
+
+        \vspace{1cm}
+        
+        \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.5\textwidth]{images/pu.png}\label{fig:logo}
+        \end{figure}
+
+        \vspace{3cm}
+        \large
+        \textbf{Asad Arshad \emph{(BS-SS-021-F21)}}
+
+        \textbf{Zainab Tehreem \emph{(BS-SS-002-F21)}}
+        
+        \vfill
+        
+        \begin{doublespace}
+          
+          \large
+          \textbf{ }
+          \vspace{0.4cm}
+          
+          \Large
+          \textbf{Department of Space Science, \\ University of the Punjab, Lahore}
+
+        \end{doublespace}
+        \date{Date of Submission}
+        
+    \end{center}
+\end{titlepage}
+
+\includepdf[pages=-, scale=1, noautoscale]{chapters/dd.pdf}
+
+% Declaration page (if required)
+\chapter*{Approval Sheet}
+\addcontentsline{toc}{chapter}{Approval Sheet}
+(to be added)
+
+
+% Acknowledgements
+\chapter*{Dedication}
+\addcontentsline{toc}{chapter}{Dedication}
+
+\begin{center}
+  \Large
+  Dedicated to the \textbf{FALLEN}
+  \normalfont~.
+\end{center}
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+% Table of contents
+\tableofcontents
+
+% List of tables (if applicable)
+\listoftables
+\addcontentsline{toc}{chapter}{List of Table}
+
+
+% List of figures (if applicable)
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% Chapters
+
+\include{chapters/chp1}
+\include{chapters/chp2}
+\include{chapters/chp3}
+\include{chapters/chp4}
+\include{chapters/chp5}
+
+% Appendices (if any)
+\include{chapters/ap1}
+\include{chapters/ap2}
+
+
+% References
+% \chapter*{References}
+
+\bibliographystyle{apacite} % Choose a bibliography style
+\bibliography{references}   % Your .bib file name
+
+\end{document}

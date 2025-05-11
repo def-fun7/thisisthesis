@@ -1,0 +1,311 @@
+\chapter{Research Methodology}\label{chp:research-methodology}
+
+Our study is mainly theoretical and creative in nature, using mathematical equations and scientific principles to model our scenario, calculating most 
+of the parameters using real life value wherever possible. Due to the complex dynamic of the research in question, the model of our mission, the methods
+of our research aren't very straight forward. Our study area or stage is set at the simplest of the black holes defined by the mathematics of \emph{General
+Relativity}, \textbf{`Schwarzschild Black Hole'}, defined only by their mass. The main players are two human beings, observer and the goal is simple, defining
+a mode of communication between them. 
+Based on that, This chapter\ref{chp:research-methodology}, is in correspondence to this is divided into four parts, namely, \emph{Black hole, Observer 
+One, Observer Two and The signal}, where each sections contains detailed informations about the parameters and equations for the respective part of our 
+scenario. 
+
+\section{Black Hole}\label{sec:BH}
+
+We assume a \emph{spherically symmetrical} black hole, with zero charge (\(Q = 0\)), i.e.~a \emph{static} as well as no angular momentum (\(J = 0\)), 
+i.e.\emph{non-rotating}. The black hole is also stationary, which means that the spacetime geometry surrounding the black hole does not change as time
+goes by. According to \emph{No hair Theorem}, such a black hole can be completely defined by only it's \textbf{Mass} \((M)\). We also assume that the
+space surrounding our black hole is completely empty, i.e.~no matter or any radiation nor any other gravitational influences are present in it's sphere of 
+influences. This assumption implies that the black hole in question has no accretion disk of any kind, presence of which can complicate the overall scenario
+as well as make the calculations more complex. 
+
+The spacetime geometry around such a black hole in a vacuum space, is described by the most simplest as well as the most studied solution of Einstein field 
+equations, \emph{Schwarzschild metric} as given in\ref{eq:s_eq}, 
+\begin{equation}
+    ds^2  = (1 - \frac{r_s}{r})c^2dt^2 - \frac{dr^2}{1 - \frac{r_s}{r}} - r^2(d\theta^2 + \sin^2\theta d \phi) \tag{1.1}
+\end{equation}
+where, \(r_s = 2GM/c^2\) and known as \textit{Schwarzschild radius}.
+
+\subsection{Mass of the Black hole}\label{subsec:M_bh}
+
+There are three main things that can be potentially lethal for a person in the neighbourhood of a black hole, 
+\begin{enumerate}
+    \item Intense radiation due to accretion (radiation burns)
+    \item Extreme gravitational acceleration (crushing)
+    \item Strong Tidal Forces (spaghettification)
+\end{enumerate}
+
+(note: there are many other phenomena involved that can also lead to death, but for now, we will consider this major ones.)
+
+We eliminated the first one by assuming a black hole with no matter or radiation nearby, an isolated black hole in vacuum space. This leaves us with
+\emph{extreme gravitational acceleration} (aka proper acceleration) and \emph{strong tidal forces} (aka tidal acceleration or gravitational gradient), 
+both of which are phenomenal inevitabilities. 
+
+Interestingly, both \emph{proper acceleration} \((\alpha)\), given by equation~\ref{eq:pa} and \emph{gravitational gradient} \((\Delta g)\), given by 
+equation~\ref{eq:del_g}, involves the term \emph{mass} \((M)\). 
+\begin{equation}\label{eq:pa}
+    \alpha = \frac{GM}{r^2} \frac{1}{\sqrt{1 - \frac{r_s}{r}}} \tag{3.1}
+\end{equation}
+\begin{equation}\label{eq:del_g}
+    \Delta g = \frac{2GM}{r^3} dr \tag{3.2}
+\end{equation}
+
+In case of proper acceleration, the equation cannot be solved for \(M\) directly or explicitly, simplifying up to equation~\ref{eq:pa_s}, 
+after quite a bit of algebra, but still contain \(r\) and \(r_s\), where, \(r = \Delta r + r_s\) and \(r_s = 2GM/c^2\), meaning, \(M\) is still a factor on both
+sides, leaving only numerical approaches to solve it, which is quite cumbersome. Furthermore, as \(r \rightarrow r_s\), the term \(\alpha\) goes to \(\infty\), 
+meaning we cannot solve this equation for \(r \approx r_s\). 
+\begin{equation}\label{eq:pa_s}
+    M = \frac{g^2}{G^2} r(r+r_s)^3 \tag{3.3}
+\end{equation}
+Another interesting fact, is that proper acceleration for one of the most massive black hole discovered so far, TON, with mass. All of this leaves us with 
+\emph{gravitational gradient} \((\Delta g)\) 
+
+\subsubsection{Mass through Gravitational Gradient}\label{subsubsec:m_gg}
+
+Gravitational gradient is simply the difference in gravitational acceleration across the small distance \((dr)\), (see equation:~\ref{eq:del_g}). It is also the reason
+of tides on Earth, hence is commonly related to as well as referred as tidal forces (or acceleration), However, gravitational gradient is much more of a general 
+term. It can be derived by differentiating gravitational acceleration (proper acceleration) with respect to distance \((dr)\), giving the equation,~\ref{eq:del_g}. 
+
+Letting \(dr\) as \(h\), height of the observer near the black hole, assuming the observer is parallel to the radial direction of the black hole for maximum gradient, 
+and \(r\) to be at Schwarzschild radius, i.e.~\((r = r_s)\), the equation~\ref{eq:del_g} can be rearranged for mass as in equation~\ref{eq:del_g_s}
+\begin{equation}\label{eq:del_g_s}
+    M = \frac{c^3}{2G}\sqrt{\frac{h}{\Delta g}} \tag{3.4}
+\end{equation}
+The equation~\ref{eq:del_g_s} gives the mass of a black hole that has \(\Delta g\) gradient at it's event horizon for an observer with height `\(h\)'. Further 
+having \(\Delta g = \Delta g_e\), where, \emph{\(\Delta g_e\)} is the gravitational gradient for a person with height `\(h\)' on the surface of earth, (as we
+know, such low \(\Delta g\) are bearable for humans), provided by equation~\ref{eq:del_g_e}
+\begin{equation}\label{eq:del_g_e}
+    \Delta g_e = \frac{2GM_e}{(r_e + h)^3} \tag{3.5}
+\end{equation}
+where, `\(M_e\)' is the mass of the earth and `\(r_e\)' is the radius of earth. 
+
+Substituting, \(\Delta g_e\) in to equation~\ref{eq:del_g_s}, we can further simplify it into, 
+\begin{equation}\label{eq:del_g_es}
+    M = \frac{c^3}{2G}\sqrt{\frac{h(h+r_e)^3}{2GM_e}} \tag{3.6}
+\end{equation}
+where equation~\ref{eq:del_g_es} is the final equation that we will be using for calculating the \emph{mass} of our black hole, such that mass is only a function 
+of `\(h\)', as every other term is a constant. 
+
+\subsection{Schwarzschild Radius}\label{subsec:Sch_rad}
+
+Now, equipped with the mass of black hole, the calculation for the \emph{Schwarzschild Radius} is quite simple. Based on schwarzschild metric~\ref{eq:s_eq}, 
+the Schwarzschild radius \(r_s\) for a black hole with mass \(M\) is given by the equation,~\ref{eq:rs}
+\begin{equation}\label{eq:rs}
+    r_s = \frac{2GM}{c^2} \tag{3.7}
+\end{equation}
+where, \(G\) is the \emph{Gravitational constant} and \(c\) is the \emph{speed of light}. In simple, \(r_s\) for a black hole with mass \(M\) is simply 
+\(const\) times the \(M\), where \(M\) is in solar units (\(M_{\odot}\)) and one solar mass is \(solar_mass_in_kgs\). 
+
+In interpretational terms, Schwarzschild radius refers to boundary of an \textbf{Event Horizon}, which in case of non-rotating black hole, is a sphere,
+and defined as \textit{the boundary of spacetime inside which escape velocity equals to the speed of light}. This implies once inside this region, nothing can
+escape. 
+
+As our mission to set up a mode of communication between two observers, we will stay out of event horizon. However, as the effects like \emph{gravitational time dilation 
+and gravitational redshift} become more prominent as one approaches the event horizon, we will have observer one as close to the event horizon as we can.
+
+\section{Observer One}\label{sec:o1}
+
+Next important piece of our play is the \emph{Observer One} (\textit{referred to as O1 from here on}). In respect of terms such as distance from the center of the black hole, O1 is closer to 
+it as compared to \emph{Observer Two}. This means that O1 will be the one experiencing effects like \textbf{gravitational time dilation, gravitational redshift}. This in turns implies that clock of O1 
+will run significantly slower as compared to someone at infinity. O1's proper and coordinate distance as well time will vary enough to be taken into consideration. 
+
+\subsection{Proper and Coordinate Distance}\label{subsec:pd_cd}
+
+In \emph{Schwarzschild Metric}, the relation of proper to coordinate distance is given by the equation~\ref{eq:dr}
+\begin{equation}\label{eq:dr}
+    \Delta r' = \Delta r \frac{1}{\sqrt{1 - \frac{r_s}{r}}} \tag{3.8}
+\end{equation}
+where, \(\Delta r'\) is the \emph{proper distance}, \(\Delta r\) is the \emph{coordinate distance} and 
+\(r\) is the distance between center of the black hole to the O1, aka, \emph{radial distance} given by~\ref{eq:r}, . Furthermore, equation~\ref{eq:dr} clearly shows
+that proper distance is always greater than the coordinate distance by the factor of \(1/ \sqrt{1 - rs/r}\) and as \(r\) approaches infinity, the term
+approaches \(1\), meaning at great distance from schwarzschild radius, coordinate and proper distances are almost same. 
+\begin{equation}\label{eq:r}
+    r = \Delta r + r_s \tag{3.9}
+\end{equation}
+For our purposes, instead of arbitrarly assuming a coordinate distance and calculating the proper distance, which is not much use later on anyways,
+we rearranged the equation~\ref{eq:dr} in order to calculate \emph{coordinate distance}, giving us the equation~\ref{eq:dr2}. This way the distance that O1 
+measures themselves, i.e.~their proper distance will always remain same regardless of change in mass hence, change in \(r_s\). This also assures that radial 
+distance also varies in accordance, in compliance of the equation~\ref{eq:r}.
+\begin{equation}\label{eq:dr2}
+    \Delta r = \frac{-r_s + \sqrt{r_s^2 + 4 \Delta r^{'2}}}{2} \tag{3.10}
+\end{equation}
+\subsection{Proper and Coordinate Time}\label{subsec:pt_ct}
+
+As proper and coordinate distances are related by the inverse of the factor \(1/ \sqrt{1 - rs/r}\) in schwarzschild system, the proper and coordinate time 
+is related as a simple multiple given by the equation~\ref{eq:tau},
+\begin{equation}\label{eq:tau}
+    \tau = t \sqrt{1 - \frac{r_s}{r}} \tag{3.11}
+\end{equation}
+where, \(\tau\) is the \emph{proper time} and \emph{coordinate time} and it is clear that proper time is always less than the coordinate time, 
+i.e. O1's clock runs slower. 
+
+\subsection{Proper acceleration and extreme g-forces}\label{subsec:pa}
+
+As stated in subsubsection~\ref{subsubsec:m_gg}, tidal forces or gravitational gradient experienced by the O1 would be even less than what they would feel 
+on the surface of earth (as they would have to be at the event horizon to feel the same gravitational gradient they would on earth and since \(r>r_s\), and \(\Delta g\) decreases with 
+\(r\), it will be less), we need not to concern ourselves with it or it's effects.
+
+On the other hand, the proper acceleration, given by equation~\ref{eq:pa} caused by the extreme curvature of the spacetime too close to the event horizon, would still be quite lethal. 
+The only viable ways  to survive such extreme acceleration without being crushed to death is to be in the state of \emph{free fall} (In accordance to \emph{Equvilance Principle}, objects in free fall
+experience zero acceleration or weightlessness). And any object can be in the state of free fall around a massive body in two ways. 
+
+\subsubsection{Radial Free Fall}\label{subsubsec:rad_ff}
+
+The simplest scenario is to letting the object fall towards the massive body by releasing it at distance \((d)\) away from the center of the black hole, such that 
+it falls under the sole influence of the gravity of the massive body, decreasing \(d\) as times goes by. The obvious problem with using this to counter g-forces
+through this kind of free fall is that mainly, that O1 will cross the event horizon after some time \((t)\). In addition to that, following are the list of reasons 
+why we won't be using this. 
+
+\begin{itemize}
+    \item In this scenario, \(r\) changes as time goes, meaning almost every single parameters will change. Like, time dilation factor for O1 will vary, so will the time to send and recieve signals, making our model cumbersome.
+    \item O1 can no longer be consider in an inertial frame with respect to the observer two, which is one of the required assumption.
+    \item Variable redshift parameter will make any sensible and constant communication obsolete. 
+    \item Regardless of how far we start the fall, for most masses range, the time frame for the fall from the prespective of O1 will be in the range of few minutes. 
+    \item O1 would also not notice nor know when they crossed the event horizon. 
+\end{itemize}
+
+\subsubsection{Orbit around}\label{subsubsec:orbit_ff}
+
+Another way for O1 to free fall is instead of falling radially towards the black hole, fall around the black hole, i.e. orbit around the black hole at some distance \(d\). 
+In this scenario, even though \(d\) remains constant, making almost all the parameters unchange throughout, O1's frame again is no longer at rest, as even with uniform velocity, 
+velocity direction component changes throughout, making the frame of reference non-inertial. 
+
+However, the biggest hurdle in orbit scenario is that in order for observer two to remain in line of sight of O1, they will have to move faster than the speed of light which is a violation of
+theory of relativity. Along with that, in order for O1 to have the lowest or inner most stable circular orbit, \(d\) would have to be \(3\) times \(r_s\), which is the Innermost stable circular orbit 
+possible in schwarzschild geometry as well as move half the speed of light regardless of the mass of the black hole in question. The question of how to factor in the 
+velocity component in the calculations is not even worth asking at this point because, it would not be possible for O1 to rotate around the black hole and communicate with O2 
+with ease (as much ease as one can expect around a black hole anyways).
+
+\subsubsection{Free Fall Chamber}\label{subsubsec:ff_cham}
+
+Imagine a long cylindrical rod with a length `\(L\)', that is hollow inside with enough cross sectional area that an average human being can fall through the 
+rod without coming in contact with rod walls. The said rod is in the vacuum of the space and rotating around it's center of mass, (the point \(L/2\)), such 
+that it takes the rod time `\(T\)' to complete one rotation. If the rotation and a person falls linearly inside of it from one end to the other in time \(t_f\) covering 
+the distance \(L\), i.e. the length of the rod. 
+
+\subsubsection{At rest}\label{subsubsec:rest}
+
+On the basis of subsubsection~\ref{subsubsec:rad_ff} and~\ref{subsubsec:orbit_ff}, as O1 can neither radially fall towards the black hole or orbit it at a constant distance \(d\), 
+our only option remains is that O1 is at rest with respect to the black hole at distance \(r\) and somehow can survive the g-forces without getting crushed to death. We chose this 
+scenario because in this case the problem is subjective in nature and has nothing to do with the underlying physics of our experiment. 
+
+In order to remain at rest at close distance to the event horizon, O1 will be applying thrust through some craft, equal in magnitude to the acceleration due 
+to spacetime curvature in opposite direction and will experience full extent of g-forces, which in most cases will be millions to billions of times the earth 
+gravitational acceleration \(g_e\), calculated by equation~\ref{eq:pa}. Of course, realistically, it would kill O1 most certainly but for our aims and purposes, 
+we will consider that O1 survive somehow. 
+
+\section{Observer Two }\label{sec:o2}
+
+As mentioned in subsection~\ref{subsec:pd_cd}, proper quantities and coordinate ones (like time, distance etc) are approximately equal so in case of Observer two (referred to as
+\emph{O2} from here on) are basically the same. In general examples and explanations of such phenomena and thought experiment, O2 is considered to be at infinity, where infinity implies far from the influences of the black hole's gravity. 
+As for our purposes, we need a bit more quantitative information about O2's distance \(D\) from the center of the black hole. 
+
+\subsection{Distance}\label{subsec:D}
+We can always assume a random high value of \(D\) that is far enough from the black hole, such that the gravitational force of the black hole on O2 is negligible, but for our model, 
+we use the \emph{newtonian approximation} of gravitational acceleration equation (given in~\ref{eq:n_g}), as we know O2 is far far away from the black hole. we
+rearrange the equation~\ref{eq:n_g} to calculate the distance \(D\) and take the value of \(g\) equals to the gravitational acceleration felt by an object on the surface of the earth 
+due to moon, i.e. \(g = g_{me}\). This gives us the equation~\ref{eq:D}.
+\begin{equation}\label{eq:n_g}
+    g = \frac{GM}{D^2} \tag{3.12}
+\end{equation}
+\begin{equation}\label{eq:D}
+    D = \sqrt{\frac{GM}{g_{me}}} \tag{3.13}
+\end{equation}
+
+The reason of not using a constant value of \(D\) for the experiment is because then for the different masses of the black hole, \(g\) experienced by the O2 would vary and can have effects that we might end up neglecting 
+as we will be considering \(g\) as negligible for O2. 
+
+Now, that we have both O1's distance from the center of the black hole as given by eq~\ref{eq:r} and O2's distance given by eq~\ref{eq:D}, we can calculate
+the distance between O1 and O2 by simple algebra. 
+\begin{equation}\label{eq:d}
+    d = D - r \tag{3.14}
+\end{equation}
+where, \(d\) is the distance between O1 and O2, assuming both are at rest and on same radial line from the black hole. As, the time and everything else for the O2 
+will be normal, this is the only thing we really need to know about O2. 
+
+\section{Signals}\label{sec:signal}
+
+Now, as we know all the important things we need to know about our black hole (section~\ref{sec:BH}) and our observers (sections~\ref{sec:o1} and~\ref{sec:o2}), we 
+are ready to discuss the main player of our experiment, \emph{signals.}. Both of our observers will communicate via electromagnetic signals, which will be travelling
+at the speed of light \((c)\). To keep things simple and interesting, they will be using the \textbf{Morse code}, where the \emph{dots} and \emph{dashes} will be
+distinguished by durations of the flash. The important consideration about the signals are given in following subsections. 
+
+\subsection{Gravitational Redshift}\label{subsec:Redshift}
+
+One of the most prominent effects of a black hole is \emph{gravitational redshift}, which is the effect of the gravitational potential on the wavelength of light.
+According to \emph{GR}, as a light beam travels opposite to the gravitational potential of a massive body, it loses energy and it's wavelength increases, i.e. the wavelength shifts towards
+longer wavelengths and less energetic parts of the EM spectrum, or towards red, just like the doppler effect. In our scenario, light travelling from O1 to O2 would be redshifted.
+
+For gravitational redshift, the redshift parameter in terms of the mass of the black hole is given by equation~\ref{eq:z}. This factor \(z\), then provides a way 
+to relate the measured wavelength of light as compared to the emitted one given by the equation~\ref{eq:lam}
+\begin{equation}\label{eq:z}
+    z = \frac{1}{\sqrt{1 - \frac{r_s}{r}}} - 1 \tag{3.14}
+\end{equation}
+\begin{equation}\label{eq:lam}
+    \lambda_o = \lambda_e (1 + z) \tag{3.15}
+\end{equation}
+
+where, \(\lambda_o\) is the \emph{observed wavelength} and \(\lambda_e\) is the \emph{emitted wavelength}. Further, we can use equations~\ref{eq:z} and~\ref{eq:lam} 
+to simplify the relation of \(\lambda_o\) and \(\lambda_e\) in terms of \(r_s\) and \(r\), stated in equation~\ref{eq:lam2}
+\begin{equation}\label{eq:lam2}
+    \lambda_o = \lambda_e \frac{1}{\sqrt{1 - \frac{r_s}{r}}} \tag{3.16}
+\end{equation}
+
+From equation~\ref{eq:lam2}, it is obvious that observed wavelength is always greater than that of emitted, i.e. \(\lambda_o > \lambda_e\). Beside that, at \(r = r_s\), the
+observed wavelength goes to infinity. This is why event horizons are called the surfaces of infinite redshift.
+
+\subsubsection{Blueshift}\label{subsubsec:blueshift}
+
+In case of light travelling in the opposite direction, i.e. towards the black hole from afar, the converse of everything in subsection~\ref{subsec:Redshift} also applies. 
+This means, in case of light coming towards the black hole, i.e. from O2 to O1 will have same amount of increase in energy, hence decrease in wavelength as the light ray 
+travelling in the opposite direction loses. Hence, for O1, observed light's wavelength is given by, 
+\begin{equation}
+    \lambda_o' = \lambda_e' \sqrt{1 - \frac{r_s}{r}} \tag{3.17}
+\end{equation}
+where, \(\lambda_o'\) is the \emph{observed wavelength} by O1 and \(\lambda_e'\) is the \emph{emitted wavelength} by O2. 
+
+For our experiment, we assume a constant observed wavelength for O1 and O2, i.e. \(\lambda_o = \lambda_o'\) and calculated the required emitting wavelengths for both 
+observers given by equations~\ref{eq:lam3} and~\ref{eq:lam4}.
+\begin{equation}\label{eq:lam3}
+    \lambda_e = \lambda_o \sqrt{1 - \frac{r_s}{r}} \tag{3.18}
+\end{equation}
+\begin{equation}\label{eq:lam4}
+    \lambda_e' = \lambda_o \frac{1}{\sqrt{1 - \frac{r_s}{r}}} \tag{3.19}
+\end{equation}
+where, \(\lambda_e\) is the wavelength of light emitted by O1 and \(\lambda_e'\) is the wavelength of light emitted by O2, and \(\lambda_o\) is the observed wavelength by both 
+observers. 
+
+\subsection{Message Time}\label{subsec:Fl_t}
+
+If we denote duration of a \emph{dot} flash as \(t_{(dot)}\) and duration of a \emph{dash} flash as \(t_{(dash)}\), such that \(t_{(dot)} < t_{(dash)}\), and keep 
+the time between two flashes same as \(t_{(dot)}\) and between two words same as \(t_{(dash)}\), we can calculate the total time spend on composing a single 
+message as given in equation~\ref{eq:total_time}
+\begin{equation}\label{eq:total_time}
+    t_{(msg)} = n  t_{(dot)} + m t_{(dash)} \tag{3.20} 
+\end{equation}
+where \(n\) is the number of all the dots in the single message as well as the spaces and \(m\) is the number of all the dashes in the single message as well as the spaces between words.
+To be duly noted, this is the time measured by the observers themselves, proper time. 
+
+\subsubsection{Relative message time}\label{subsubsec:rel_time}
+
+Let's assume O1 transmit a single dot flash towards O2 having a duration of \(t_{(dot)}\). Now, according to subsection~\ref{subsec:pt_ct}, the dot will have a 
+duration of \(t_{(dot)} / \sqrt{1 - r_s/r}\) i.e. longer than the actual duration and in opposite case, it will be less than the actual duration of flash send by O2.
+This can be very bothersome and not very ideal for a communication system. 
+
+In order to deal with that, instead of sending flashes of simple \(t_{(dot)}, t_{(dash)}\), both observers will adjust the duration in order to compensate for 
+time dilation effects. Based on equation~\ref{eq:tau}, O1 will have flashes duration in term of inverse of the factor \(\sqrt{1 - rs/r}\), while O2 will have their duration as multiple. 
+This will take care of time disrepancy due to gravitational time dilation.
+\begin{align*}\label{eq:rel_time}
+    t_{(A)} &= t_{(dur)} \frac{1}{\sqrt{1 - \frac{r_s}{r}}} \\
+    t_{(B)} &= t_{(dur)} \sqrt{1 - \frac{r_s}{r}} \tag{3.21}
+\end{align*}
+where, \(t_{(dur)}\) is either \(t_{(dot)}\) or \(t_{(dash)}\) generalised durations, and equations~\ref{eq:rel_time} provide the durations for respective observer.
+Furthermore, for equation~\ref{eq:total_time}, the use of dot and dash will depend on the observer, to provide the total time in their local frame of reference. It is 
+to be noted that these will be durations they will keep the flashes. Observed flashes, regardless of observer, will be simple \(t_{(dot)}\) and \(t_{(dash)}\). 
+
+\subsection{Signal Travel Time}\label{subsec:stt}
+
+The time it will take for signal to travel from O1 to O2 considering relativistic effects is given by
+\begin{equation}\label{eq:signal_time}
+    \Delta t = \frac{d}{c} + \frac{r_s}{c} \ln (\frac{D - r_s}{r - r_s}) \tag{3.22}
+\end{equation}
+

@@ -1,0 +1,116 @@
+\chapter{Introduction}\label{chp:introduction}
+
+Falling through the black hole, albeit a stellar or a supermassive one, static or rotating,
+in short, in all kinds and colours, have been a subject of fascination for theoretical physicists.
+However, Given the limitations of the current technology, the immense 
+distances involved, the nearest Black hole \emph{Gaia BH1} being \(1, 560\) \textit{light years} away
+\cite{esa_gaia_blackholes}, and the extreme conditions in the vicinity of the Black hole,
+had made it more than unlikely for humankind to go through with such an adventure
+physically in the foreseeable future. 
+
+This fact has not however stopped the scientific community from researching as well 
+as interpreting the \emph{mathematics of General Relativity (GR)} in order to make such journeys understandable and imaginable
+if not comprehensible scenarios, along with their fair share of myths and misconceptions. Such journeys from advanced 
+technically written research papers with their more than fair share of mathematics, to easily digestible content
+for the general public while still retaining the same level of mathematical rigor, have been done by various science journalists,
+youtube channels, as well as simulations on the web. 
+
+In all that, We aim to try and do something different. Instead of falling head first into the 
+black hole and documenting the journey for either fun or education purposes for the general 
+masses, we aim to provide a different view into this, mainly on the matters of \emph{Gravitational Redshift}, 
+\emph{Time Dilation} and how they will impact an exchange of information between two observers, one being closest to the 
+event horizon, while the other far from the gravitational influence of the said event horizon.
+
+\section{Mission Statement}\label{sec:mission-statement}
+
+Our mission is simple. Just like the equations of General Relativity. 
+
+The mission is to figure out the safest event horizon, safest being the one whose tidal forces won't rip you apart on close enough approach, 
+calculate different physical parameters for the observer near it, like the relation of it's proper to coordinate distance, proper acceleration, proper and coordinate
+time, redshift parameter etc. Afterwards, calculate the distance of the second observer such that it feels same gravitational acceleration due to the black hole
+as a person on the surface of earth feels due to the gravitational acceleration due to moon. Then to define the mode of communication between them, i.e. the 
+wavelength of light used, etc and calculate signal travel times for both sides. Finally, provide the information on the relative time delay between the two observers, 
+as well as how long the experience will be for both sides. 
+
+\section{Mission's Significance}\label{sec:significance}
+
+Black Hole are the most simplest phenomena in the universe, defined only by the three parameters, mass, charge and angular momentum, and 
+yet the universe around this beasts is the most complicated and least understood, to the point that all of our understanding of the current universe, \emph{laws of physics},
+and \emph{mathematics} blows up as one reaches the singularity, the heart of darkness. Due to this, Black hole not only provide us the most extreme places to experiment and 
+test \emph{General Relativity}, our current best theory of gravitation, as well as hope for some key clue about quantum gravity. Due to this, keeping the 
+strangeness and awesomeness of them aside, Black holes have been a subject of fascination for scientists, journalists, and even the general masses 
+for half a century or so. New research is being done in the field as the times goes by. 
+
+In all this, the simple but straightforward significance of our mission can be seen as a way of trying to bridge the gap between the two worlds, the one 
+we live in, and the one we dream of. We aim to show, how something as simple as having a conversation or exchange of some flashes can be effected 
+by the gravitational effects of the black hole, how the same experience will take mere second for one observer, while a lifetime for the other. The goal is to
+present a way as well as a tool that can be used to show the time frame for such exchanges for general masses, signifying the importance of 
+research into black holes as well as promoting and even sparking curiosity in the readers.
+
+\section{Mission Objectives}\label{sec:objectives}
+
+To enlist the core objectives of our mission, we have the following:
+
+\begin{itemize}
+    \item Calculate the mass of the black hole (\(M\)) such that the gravitational gradient at  it's schwarzschild radius \(r_s\) is \(\Delta g_e\) for the person of same height on earth.
+    \item Calculate the distance of observer \emph{B} \((D)\), such that acceleration due to gravity of the black hole at (\(D\)) is same as the acceleration due to gravity of the moon on the surface of earth.
+    \item Calculate the distance between two observers (\(d\)).
+    \item Calculate the Redshift parameter \(z\) and use that to calculate emitted wavelength \(\lambda_e(observer)\) for both observers such that they both observed certain same wavelength \(\lambda_o\).
+    \item Calculate the relative time delay between the two observers for a defined wavelength of light.
+\end{itemize}
+
+\section{Research Questions}\label{sec:research-questions}
+
+The main questions asked in this mission are:
+
+How the presence of a black hole affects the communication between two observers in temporal terms? How change in a person height, effect the required lower mass limit of the black hole? Exactly how much longer it take to compose same message far from black hole relative to near it's event horizon? How long will the whole experience be for both sides? What can these insights help us with? 
+
+\section{Assumptions}\label{sec:assumptions}
+
+As mentioned earlier in~\ref{sec:significance}, All (stationary) black holes can be completely defined by three parameters, i.e. \emph{mass \(M\), angular momentum \(J\) and charge \(Q\)}. As mass is fundamental for every black holes,
+the other two parameter provide us with four possible categories of black holes. Among them, for our mission, we will be using the simplest case, a case where both angular momentum and charge are zero. In essence the assumptions we will be having are all following:
+
+\begin{description}
+    \item[Stationary] The spacetime geometry surrounding the black hole does not change over time, (metric components are independent of time coordinates).
+    \item[Static] The black hole has zero charge.
+    \item[Non-rotating] The angular momentum or spin parameter for the black hole is zero.
+    \item[Shape] The black hole is symmetrical and spherical.
+    \item[Surrounding] The black hole is in vacuum and there are no other gravitational influences nor any other source of matter or radiation (no accretion disk, jets.). 
+    \item[Inertial Frame] Both observers are at rest relative to each other.
+    \item[Free Fall Chamber] Our free fall chamber works. 
+\end{description}
+
+Based on these assumptions, the spacetime geometry around our black hole can be described by using \textbf{Schwarzschild Metric}, the line element for which is given by~\ref{eq:s_eq}, 
+
+\begin{equation}\label{eq:s_eq}
+    ds^2  = (1 - \frac{r_s}{r})c^2dt^2 - \frac{dr^2}{1 - \frac{r_s}{r}} - r^2(d\theta^2 + \sin^2\theta d \phi) \tag{1.1}
+\end{equation}
+
+where, \(r_s\) is the \emph{schwarzschild radius}, which is equal to \(\frac{2GM}{c^2}\). The equation~\ref{eq:s_eq}, can be written in metric form as, 
+
+\begin{equation}\label{eq:s_metric}
+    g_{\mu \nu}=\begin{bmatrix}
+        (1-\frac{r_s}{r}) & 0 & 0 & 0
+        \cr 0 & \frac{-1}{(1-\frac{r_s}{r})} & 0 & 0
+        \cr 0 & 0 & -r^2 & 0
+        \cr 0 & 0 & 0 & -r^2\sin^2\theta
+        \end{bmatrix}
+        \tag{1}
+\end{equation}
+
+\section{Limitations}\label{sec:limitations}
+
+Tidal acceleration (aka gravitational gradient \((\Delta g)\)) and proper acceleration \((\alpha)\) are the two main limiting factors in our mission. Humans, our observers are humans too, cannot withstand high acceleration and extreme tidal forces around the black holes can
+rip apart anything, aka spaghettification. Interestingly, lower mass black holes (stellar black holes), have low proper acceleration near their event horizon compared to supermassive black holes (several billions times stronger), but they also have extreme tidal forces, meaning everything will be ripped apart before coming even a \(1000 \times r_s\)
+radial distance to them. On the other hand, supermassive black hole can have almost negligible (even earth like) tidal forces at their event horizon because 
+tidal acceleration is inversely proportional to the distance \((r^3)\) and supermassive black holes have larger \(r_s\).
+
+Insight of that, we decided to use tidal acceleration as our limiting factor, and use that to calculate the mass of the black hole. In order to deal with high 
+g-forces (proper acceleration), we have our observers orbit the black hole, so they will be in constant free fall, i.e. a state of weightlessness and won't have to experience
+the proper acceleration. This in turn created a limit factor, the distance of the orbit from the center of the black hole. To be as near as possible to the even horizon, we 
+chose \textbf{Innermost Stable Circular Orbit}, \((r_{isco})\), which is 3 times \(r_s\) for the Schwarzschild Black hole. 
+
+To keep model simple, so far the only real variable in our model is the height of the observer `A' \((h)\). 
+
+
+% \section{Key Terms}\label{sec:key-terms}

@@ -1,0 +1,118 @@
+\appendix
+\chapter*{Appendix A: Derivations}
+\addcontentsline{toc}{chapter}{Appendices}
+
+\subsection{Mass of the Black hole}
+
+According to \emph{Newton's 2nd law},
+\begin{equation} \label{eq: 1.1}
+F = ma \tag{1.1}
+\end{equation}
+In case, of acceleration due to gravity \((g)\), this can be written as, 
+\begin{equation} \label{eq: 1.2}
+F_g = mg \tag{1.2}
+\end{equation}
+And in accordance with \emph{Newton's Law of Gravitation}, 
+\begin{equation} \label{eq: 1.3}
+F_g = \frac{GMm}{r^2} \tag{1.3}
+\end{equation}
+From equation \eqref{eq: 1.2} and \eqref{eq: 1.3}, we get \(g\), Gravitational acceleration as, 
+\begin{equation} \label{eq: 1.4}
+g = \frac{GM}{r^2} \tag{1.4}
+\end{equation}
+Tidal acceleration \((a_t)\) or Gravitational gradient \((\Delta g)\) is defined as the rate of change of gravitational acceleration across small distance \(\Delta r\), given by the derivative of \(g\) from equation \eqref{eq: 1.4}, as
+\begin{align} \label{eq: 1.8}
+    \frac{dg}{dr} &= \frac{d}{dr} (\frac{GM}{r^2}) \tag{1.5}\\
+    \frac{dg}{dr} &= GM\frac{d}{dr} (r^{-2}) \tag{1.6}\\
+    \frac{dg}{dr} &= GM (2 r^{-3}) \tag{1.7}\\
+    \frac{dg}{dr} &= \frac{2GM}{r^{3}} \tag{1.8}
+\end{align}
+
+For a finite change in r as \(\Delta r\), for a finite change in g, \(\Delta g\),
+\begin{equation} \label{eq: 1.9}
+\Delta g = \frac{dg}{dr} \Delta r \tag{1.9}
+\end{equation}
+from equation \eqref{eq: 1.9} and \eqref{eq: 1.8}, and replacing \(Delta r\) with \(h\) to represent height of a person, we get the same equation as in \eqref{eq:tidal acceleration}, 
+\begin{equation} \label{eq: 1.10}
+\Delta g = \frac{2GMh}{r^{3}} \tag{1.10}
+\end{equation}
+Till here, the derivation can be found in text books. Afterwards, we are gonna solve it for our purposes. 
+
+We would like to derive an equation that calculate the mass of the BH \(M\), that has a certain \(\Delta g\) at the surface of it's event horizon, i.e.~at \(r_s\). 
+
+As, \(r_s = 2GM/c^2 \) and putting \(r = r_s\) in equation \eqref{eq: 1.10}, we get, 
+\begin{align} \label{eq: 1.16}
+\Delta g &= 2GMh (\frac{c^2}{2GM})^3 \tag{1.11} \\
+\Delta g &= 2GMh \frac{c^8}{8G^3 M^3} \tag{1.12} \\
+\Delta g &= h \frac{c^8}{4G^2 M^2} \tag{1.13} \\
+    M^2 &=  \frac{hc^8}{4G^2 \Delta g} \tag{1.14} \\
+    M &= \sqrt{\frac{hc^8}{4G^2 \Delta g} \tag{1.15}} \\
+    M &= \frac{c^3}{2G}\sqrt{\frac{h}{\Delta g} \tag{1.16}}  
+\end{align}
+where, \eqref{eq: 1.16} is the desired equation \eqref{eq: mass_at}.
+
+\subsection*{Proper and Coordinate Distances}
+
+The \emph{Schwarzchild Metric} is given by, 
+\begin{equation} \label{eq: Sm}
+ds^2 = -c^2d\tau^2 = -(1 - \frac{r_s}{r}) c^2 dt^2 + (1 - \frac{r_s}{r})^{-1} dr^2 + r^2 (d\theta^2 - sin^2\theta d\phi^2) \tag{2.1}
+\end{equation}
+where \((t, r, \theta, \phi)\) are \emph{Schwarzchild coordinates} that describe the curvature around a non-rotating, uncharged spherical body (black hole). 
+for simplification of the equation to get the relation for proper and coordinate distance, we will assume a spacetime event that is fixed in time, \(dt = 0\), and no angular motion, i.e. a pure radial movement, hence, \(d\theta = d\phi = 0\), which simplifies equation \eqref{eq: Sm} to, 
+\begin{equation} \label{eq: 2.2}
+ds^2 = (1 - \frac{r_s}{r})^{-1} dr^2 \tag{2.2}
+\end{equation}
+then for a proper distance \((\Delta r')\) for coordinate distance \((\Delta r)\), we have, 
+\begin{align*} \label{eq:2.3}
+\Delta r' &= \sqrt{ds^2}  \\
+\Delta r' &= \sqrt{(1- \frac{r_s}{r})^{-1} \Delta r^2}  \\
+\Delta r' &= \Delta r \sqrt{(1 - \frac{r_s}{r})^{-1}} \\
+\Delta r' &= \Delta r \frac{1}{\sqrt{1- \frac{r_s}{r}}} \tag{2.3} 
+\end{align*}
+where , substituting \(\sqrt{1 - (rs/r)}\) as \(q\) will gives us equation \eqref{eq: qr}. 
+
+Now, Further more, 
+\begin{align*} \label{eq: 2.4}
+\Delta r &= \Delta r' \sqrt{1- \frac{r_s}{r}} \\
+\Delta r &= \Delta r' \sqrt{\frac{r - r_s}{r}} \\
+\Delta r &= \Delta r' \sqrt{\frac{r_s + \Delta r - r_s}{ r_s + \Delta r}} \text{    from eq \eqref{eq: r}} \\
+\Delta r &= \Delta r' \sqrt{\frac{ \Delta r }{ r_s + \Delta r}} \\
+\Delta r^2 &= \Delta r'^2 \frac{\Delta r }{ r_s + \Delta r} \\
+0 &= \Delta r^2 (r_s + \Delta r) - \Delta r'^{2} \Delta r \\
+0 &= \Delta r^3 + r_s\Delta r^2 - \Delta r'^{2} \Delta r \\
+0 &= \Delta r(\Delta r^2 + r_s\Delta r - \Delta r'^{2})  \tag{2.4}
+\end{align*}
+from equation \eqref{eq: 2.4}, we get \(\Delta r = 0\) and the quadratic equation, 
+\begin{equation*} \label{eq: 2.5}
+\Delta r^2 + r_s\Delta r - \Delta r'^{2} = 0 \tag{2.5}\
+\end{equation*}
+comparing with the general quadratic equation, \(ax^2 + bx + c = 0\), we get, 
+\begin{align*}
+a &= 1 \\
+b &= r_s \\ 
+c &= -\Delta r'
+\end{align*}
+using quadratic formula \eqref{eq: QF}, 
+\begin{equation} \label{eq: QF}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \tag{QF}
+\end{equation}
+putting values we get, 
+\begin{equation} \label{eq: dr}
+\Delta r = \frac{-r_s \pm \sqrt{r_s^2 + 4(\Delta r')r_s}}{2} \tag{2.6}
+\end{equation}
+
+\subsection*{Proper and coordinate Time}
+
+For a timelike spacetime event, we will assume an event that is stationary in space, i.e. \(ds = d\theta = d\phi = 0\), which reduces the \emph{Schwarzchild Metric} to,
+\begin{equation} \label{eq: pt}
+-c^2d\tau^{2} = - (1 - \frac{r_s}{r}) c^2 dt^2 \tag{2.7}
+\end{equation}
+simplifying it by cancelling out \(-c^2\) on both sides, and taking the square root and neglecting the derivative, leaves the following, 
+\begin{equation} \label{eq: pt2}
+\tau = t \cdot \sqrt{1 - \frac{r_s}{r}} \tag{2.8}
+\end{equation}
+or, using equation \eqref{eq: q}, we get the same equation as \eqref{eq: tau1}
+\begin{equation} \label{eq:Tau2}
+\tau = tq \tag{2.9}
+\end{equation}
+

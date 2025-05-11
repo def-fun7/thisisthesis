@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Hole with Persistent Elements</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  <style>
+    body { margin: 0; overflow: hidden; background-color: #fff9f9; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <script>
+    let centerX;
+    let centerY;
+    let blackHoleRadius = 50; // Initial size
+    let zoomFactor = 1;
+    let maxBlackHoleRadius = 200; // Size at which zooming stops
+    let isZooming = true;
+    let stars = [];
+    let initialStarDensity = 0.08;
+    let starFadeThresholdStart = 50; // Black hole radius to start fading stars
+    let starFadeThresholdEnd = 150; // Black hole radius to reach max fade
+    let minStarBrightness = 50;
+    let maxStarBrightness = 200;
+    let minStarAlpha = 50; // Minimum alpha for stars
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight);
+      centerX = width / 2;
+      centerY = height / 2;
+      noStroke();
+
+      // Create initial starfield
+      for (let i = 0; i < width * height * initialStarDensity; i++) {
+        stars.push({
+          x: random(width),
+          y: random(height),
+          size: random(1, 2),
+          brightness: random(minStarBrightness, maxStarBrightness),
+          twinkleOffset: random(1000)
+        });
+      }
+    }
+
+    function draw() {
+      background(0);
+
+      // Draw the starfield with fading opacity (not density)
+      for (let star of stars) {
+        let distanceToBH = dist(star.x, star.y, centerX, centerY);
+        let fadeAlpha = 255;
+
+        if (blackHoleRadius * zoomFactor > starFadeThresholdStart) {
+          fadeAlpha = map(blackHoleRadius * zoomFactor, starFadeThresholdStart, starFadeThresholdEnd, 255, minStarAlpha);
+          fadeAlpha = constrain(fadeAlpha, minStarAlpha, 255);
+        }
+
+        fill(star.brightness + sin(frameCount * 0.05 + star.twinkleOffset) * 20, fadeAlpha);
+        ellipse(star.x, star.y, star.size, star.size);
+      }
+
+      // Draw the blurry boundary around the black hole (always visible with min alpha)
+      let boundaryRadius = blackHoleRadius * zoomFactor * 1.5;
+      for (let i = boundaryRadius; i > blackHoleRadius * zoomFactor; i -= 2) {
+        let alpha = map(i, blackHoleRadius * zoomFactor, boundaryRadius, 200, 50); // Min alpha of 50
+        alpha = constrain(alpha, 50, 200);
+        fill(0, alpha);
+        ellipse(centerX, centerY, i * 2, i * 2);
+      }
+
+      // Draw the black hole core (always fully black)
+      fill(0);
+      ellipse(centerX, centerY, blackHoleRadius * zoomFactor * 2, blackHoleRadius * zoomFactor * 2);
+
+      // Simulate zooming in until max size
+      if (isZooming) {
+        blackHoleRadius += 0.2;
+        zoomFactor += 0.005;
+        if (blackHoleRadius * zoomFactor > maxBlackHoleRadius) {
+          isZooming = false; // Stop zooming
+        }
+      }
+
+      // Keep the black hole roughly centered
+      centerX = width / 2 + sin(frameCount * 0.01) * 10 * zoomFactor;
+      centerY = height / 2 + cos(frameCount * 0.01) * 10 * zoomFactor;
+
+      // Draw a simple visual "menu bar" at the top
+      fill(30);
+      rect(0, 0, width, 40);
+      fill(200);
+      textAlign(LEFT, CENTER);
+      textSize(16);
+      text("Menu", 20, 20);
+
+      // Draw a simple visual "task bar" at the bottom
+      fill(30);
+      rect(0, height - 30, width, 30);
+      fill(150);
+      textAlign(RIGHT, CENTER);
+      textSize(14);
+      text("Visual Task Bar", width - 20, height - 15);
+    }
+
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight);
+      centerX = width / 2;
+      centerY = height / 2;
+    }
+  </script>
+</body>
+</html>

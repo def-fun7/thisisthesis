@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Projects/Air Quality Analysis (pk)/Report"
+		},
+		{
+			"path": "D:/VS Code Projects/down_the_blackhole"
+		},
+		{
+			"path": "testing/combos"
+		},
+		{
+			"path": "D:/VS Code Projects/SMBHs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "thisisthesis"
+	}
+}

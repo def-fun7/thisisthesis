@@ -1,0 +1,190 @@
+% thesis_style.sty
+
+% --- Document Class and Basic Packages (KEEP THESE) ---
+\ProvidesPackage{thesis_style}
+\RequirePackage[left=3.81cm, right=2.54cm, top=2.54cm, bottom=2.0cm]{geometry}
+\RequirePackage{times}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{setspace}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{graphicx}
+\RequirePackage{caption}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{fancyhdr}
+\RequirePackage{indentfirst}
+\RequirePackage{quoting}
+\RequirePackage{mfirstuc}
+\RequirePackage{float}
+\RequirePackage{ragged2e} % For better justification control
+
+% --- Additional Packages (NEWLY ADDED) ---
+\RequirePackage{newtxtext}
+\RequirePackage{newtxmath}
+\RequirePackage[normalem]{ulem}
+\RequirePackage{hyperref}
+\RequirePackage{color}
+\RequirePackage{tabularray}
+\RequirePackage[protrusion=true,expansion=true]{microtype}
+\RequirePackage{array}
+\RequirePackage{rotating}
+\RequirePackage{pdfpages}
+\RequirePackage{listings}
+\RequirePackage[export]{adjustbox}
+\RequirePackage{subcaption}
+\RequirePackage{upquote}
+\RequirePackage{apacite}
+
+% --- Color Definitions (NEWLY ADDED) ---
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0}
+\definecolor{editorGreen}{rgb}{0, 0.5, 0}
+\definecolor{orange}{rgb}{1,0.45,0.13}
+\definecolor{olive}{rgb}{0.17,0.59,0.20}
+\definecolor{brown}{rgb}{0.69,0.31,0.31}
+\definecolor{purple}{rgb}{0.38,0.18,0.81}
+\definecolor{lightblue}{rgb}{0.1,0.57,0.7}
+\definecolor{lightred}{rgb}{1,0.4,0.5}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{MineShaft}{rgb}{0.2,0.2,0.2}
+
+% --- Spacing (KEEP THESE - no conflict) ---
+\linespread{2.0}
+% \setlist[itemize]{itemsep=0.75\baselineskip}
+
+% --- Headings Style (POTENTIAL CONFLICT - REPLACING) ---
+\titleformat{\chapter}[display]
+  {\centering\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\centering\Huge} % Added \centering
+\titlespacing*{\chapter}{0pt}{20pt}{30pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+% We'll keep the original subsubsection, paragraph, subparagraph styles for now
+% \titleformat{\subsubsection}
+%   {\normalfont\fontsize{12}{15}\bfseries\itshape\RaggedRight\vspace{2\baselineskip}}
+%   {\thesubsubsection}
+%   {1em}
+%   {\MakeTitleCase}
+
+% \titleformat{\paragraph}
+%   {\normalfont\fontsize{12}{15}\bfseries\hspace{1em}\RaggedRight\vspace{2\baselineskip}}
+%   {\theparagraph}
+%   {1em}
+%   {\MakeSentenceCase}
+
+% \titleformat{\subparagraph}
+%   {\normalfont\fontsize{12}{15}\bfseries\itshape\hspace{1em}\RaggedRight\vspace{2\baselineskip}}
+%   {\thesubparagraph}
+%   {1em}
+%   {\MakeSentenceCase}
+
+% Indentation for new paragraphs and block quotes (KEEP THIS - no conflict)
+\setlength{\parindent}{2.5em}
+
+% --- Page Numbering (KEEP THESE - no conflict) ---
+\pagestyle{fancy}
+\fancyhf{}
+
+% Preliminary pages
+\renewcommand{\thepage}{\roman{page}}
+\fancyfoot[C]{\thepage}
+
+
+% Main body
+\newcommand{\mainmatter}{
+  \cleardoublepage
+  \setcounter{page}{1}
+  \renewcommand{\thepage}{\arabic{page}}
+  \fancyhead[RO]{\thepage} % Arabic numerals at the Top Right
+  \fancyfoot[C]{} % Clear the footer for the main matter
+}
+% Appendices
+\newcommand{\appendixmatter}{
+  \cleardoublepage
+  \setcounter{page}{1}
+  \renewcommand{\thepage}{\Alph{chapter}.\arabic{page}}
+  \renewcommand{\chaptername}{Appendix}
+  \fancyhead[RO]{\thepage}
+  \fancyfoot[C]{\roman{page}}
+}
+
+% --- Preliminary Pages Titles (KEEP THESE - no conflict) ---
+\newcommand{\preliminarypagestyle}{%
+  \pagestyle{empty}
+  \centering
+  \fontsize{14}{17}\selectfont\bfseries
+}
+
+\newcommand{\maketitlepreliminary}[1]{%
+  \thispagestyle{empty}
+  \centering
+  \fontsize{16}{20}\selectfont\bfseries\MakeUppercase{#1}\par\vspace{3\baselineskip}
+}
+
+
+% --- Listings Style (NEWLY ADDED) ---
+\lstdefinelanguage{JavaScript}{
+  morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  morecomment=[s]{/*}{*/},
+  morecomment=[l]//,
+  morestring=[b]",
+  morestring=[b]'
+}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% --- Header and Footer Style (POTENTIAL CONFLICT - REPLACING FANCYHDR SETUP) ---
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\rightmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% --- Hyperlink Setup (NEWLY ADDED) ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    }
+
+\urlstyle{same}
+
+% --- Title Case Function (KEEP THIS - no conflict) ---
+\DeclareRobustCommand{\MakeTitleCase}[1]{\MFUfirstuc{#1}}
+\DeclareRobustCommand{\MakeSentenceCase}[1]{\MFUfirstuc{#1}}
+
+\endinput

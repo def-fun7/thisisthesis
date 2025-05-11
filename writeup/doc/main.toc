@@ -1,0 +1,42 @@
+\contentsline {chapter}{Approval Sheet}{ii}{chapter*.2}%
+\contentsline {chapter}{Dedication}{iii}{chapter*.3}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.4}%
+\contentsline {chapter}{List of Table}{vii}{chapter*.6}%
+\contentsline {chapter}{List of Figures}{viii}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{ix}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Mission Statement}{x}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Mission's Significance}{x}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Mission Objectives}{xi}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Research Questions}{xii}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Assumptions}{xii}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Limitations}{xiii}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Review of Related Literature}{xv}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Mathematical Part}{xvi}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Conceptual Parts}{xvii}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Coding Part}{xviii}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{xix}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Black Hole}{xix}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Mass of the Black hole}{xx}{subsection.3.1.1}%
+\contentsline {subsubsection}{Mass through Gravitational Gradient}{xxi}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {3.1.2}Schwarzschild Radius}{xxii}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Observer One}{xxiii}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Proper and Coordinate Distance}{xxiv}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Proper and Coordinate Time}{xxiv}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Proper acceleration and extreme g-forces}{xxv}{subsection.3.2.3}%
+\contentsline {subsubsection}{Radial Free Fall}{xxv}{subsubsection*.23}%
+\contentsline {subsubsection}{Orbit around}{xxvi}{subsubsection*.24}%
+\contentsline {subsubsection}{Free Fall Chamber}{xxvii}{subsubsection*.25}%
+\contentsline {subsubsection}{At rest}{xxvii}{subsubsection*.26}%
+\contentsline {section}{\numberline {3.3}Observer Two }{xxviii}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Distance}{xxviii}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Signals}{xxix}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Gravitational Redshift}{xxix}{subsection.3.4.1}%
+\contentsline {subsubsection}{Blueshift}{xxx}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {3.4.2}Message Time}{xxxi}{subsection.3.4.2}%
+\contentsline {subsubsection}{Relative message time}{xxxii}{subsubsection*.38}%
+\contentsline {subsection}{\numberline {3.4.3}Signal Travel Time}{xxxiii}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Data Analysis and Interpretation}{xxxiv}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Summary, Findings, Discussion, Conclusions and Recommendations}{xxxv}{chapter.5}%
+\contentsline {chapter}{Appendices}{xxxvi}{appendix*.42}%
+\contentsline {subsection}{\numberline {.0.1}Mass of the Black hole}{xxxvi}{subsection.Alph0.0.1}%
+\contentsline {chapter}{References}{xliv}{appendix*.109}%
