@@ -29,8 +29,9 @@ body{
     display: none;
     text-align: center;
 }
-.popup button{
-    display: block;
+#close{
+    display: flex;
+    align-self: flex-end;
     margin:  0 0 20px auto;
     background-color: transparent;
     font-size: 30px;
@@ -38,6 +39,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+    border: #0f72e5 solid 2px;
 }
 .popup p{
     font-size: 14px;
@@ -56,6 +58,33 @@ a{
     text-decoration: none;
     padding: 5px 0;
 }
+
+.motionButton{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid #c5c5c5;
+    outline: none;
+    cursor: pointer;
+    align-content: space-between;
+}
+.motionButton .back{
+    border-radius: 10px 0 0 10px;
+    left: 50%;
+    border: black solid 5px;
+    align-self: flex-start;
+}
+.motionButton .forward{
+    border-radius: 0 10px 10px 0;
+    border: #0f72e5 solid 5px;
+    align-self: flex-end;
+}
+
+
     </style>
 </head>
 <body>
@@ -68,7 +97,14 @@ a{
             
 
         </p>
-        <a href="#">Let's Go</a>
+        <!-- <a href="#">Let's Go</a> -->
+        <div class="motionButton">
+            <button id="back" class="back">&lt;</button>
+            ok
+            <button id="forward" class="forward">&gt;</button>
+            
+        </div>
+
     </div>
     <!--Script-->
     <script>
