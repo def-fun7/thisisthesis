@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="time"></div>
+    <button id="test" onclick="change()">this is a change button</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.2.1/math.min.js"></script>
+
+    <script>
+        var tdiv = document.getElementById('time')
+        
+        var i = 0;
+
+        var now = new Date().getTime();
+        function change(){
+            i += 1;
+            var t2 = math.unit(i, 'sec').toNumber('milliseconds')
+            var newT = now + t2;
+            tdiv.innerHTML = new Date(newT).toString().split('GMT')[0]
+            now = newT;
+        }
+
+    </script>
+</body>
+</html>
